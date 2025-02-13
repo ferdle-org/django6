@@ -1,0 +1,507 @@
+aiohappyeyeballs==2.3.4
+    # via aiohttp
+aiohttp==3.11.10
+    # via
+    #   -r requirements.in
+    #   geoip2
+    #   langchain
+aiosignal==1.3.1
+    # via aiohttp
+amqp==5.1.1
+    # via kombu
+annotated-types==0.6.0
+    # via pydantic
+anyio==3.7.1
+    # via
+    #   httpx
+    #   openai
+arnparse==0.0.2
+    # via -r requirements.in
+asgiref==3.7.2
+    # via
+    #   django
+    #   django-cors-headers
+    #   django-countries
+asn1crypto==1.5.1
+    # via snowflake-connector-python
+attrs==22.2.0
+    # via
+    #   aiohttp
+    #   cattrs
+    #   ddtrace
+    #   jsonschema
+    #   referencing
+aws-requests-auth==0.4.3
+    # via -r requirements.in
+billiard==4.2.0
+    # via celery
+bleach==6.2.0
+    # via -r requirements.in
+boto3==1.35.81
+    # via
+    #   -r requirements.in
+    #   celery
+    #   kombu
+botocore==1.35.81
+    # via
+    #   boto3
+    #   s3transfer
+bytecode==0.15.1
+    # via ddtrace
+cachetools==5.5.0
+    # via -r requirements.in
+cattrs==22.1.0
+    # via ddtrace
+celery[redis,sqs]==5.4.0
+    # via -r requirements.in
+certifi==2024.7.4
+    # via
+    #   httpcore
+    #   httpx
+    #   launchdarkly-server-sdk
+    #   requests
+    #   sentry-sdk
+    #   snowflake-connector-python
+cffi==1.15.1
+    # via
+    #   cryptography
+    #   pynacl
+    #   snowflake-connector-python
+charset-normalizer==2.0.1
+    # via
+    #   requests
+    #   snowflake-connector-python
+click==8.1.7
+    # via
+    #   -r requirements.in
+    #   celery
+    #   click-didyoumean
+    #   click-plugins
+    #   click-repl
+click-didyoumean==0.3.0
+    # via celery
+click-plugins==1.1.1
+    # via celery
+click-repl==0.2.0
+    # via celery
+contexttimer==0.3.3
+    # via -r requirements.in
+coreapi==2.3.3
+    # via openapi-codec
+coreschema==0.0.4
+    # via coreapi
+cramjam==2.8.3
+    # via python-snappy
+cryptography==43.0.3
+    # via
+    #   -r requirements.in
+    #   pyopenssl
+    #   snowflake-connector-python
+ddsketch==3.0.1
+    # via ddtrace
+ddtrace==2.9.3
+    # via -r requirements.in
+deprecated==1.2.13
+    # via opentelemetry-api
+distro==1.8.0
+    # via openai
+django==4.2.18
+    # via
+    #   -r requirements.in
+    #   django-appconf
+    #   django-cors-headers
+    #   django-dirtyfields
+    #   django-fast-update
+    #   django-filter
+    #   django-polymorphic
+    #   django-redis-cache
+    #   django-storages
+    #   django-tenants
+    #   django-timezone-field
+    #   djangorestframework
+django-appconf==1.0.4
+    # via django-imagekit
+django-cache-friendly-timestamp-signer==1.0.1
+    # via -r requirements.in
+django-cors-headers==4.6.0
+    # via -r requirements.in
+django-countries==7.6.1
+    # via -r requirements.in
+django-cte==1.3.3
+    # via -r requirements.in
+django-dirtyfields==1.9.5
+    # via -r requirements.in
+django-fast-update==0.2.3
+    # via -r requirements.in
+django-filter==24.3
+    # via
+    #   -r requirements.in
+    #   djangorestframework-filters
+django-imagekit==5.0.0
+    # via -r requirements.in
+django-polymorphic==3.1.0
+    # via -r requirements.in
+django-redis-cache==1.0.0
+    # via -r requirements.in
+django-snowflake==4.2.3
+    # via -r requirements.in
+django-sortedm2m==4.0.0
+    # via -r requirements.in
+django-storages==1.14.4
+    # via -r requirements.in
+django-tenants==3.7.0
+    # via -r requirements.in
+django-timezone-field==7.0
+    # via -r requirements.in
+djangorestframework @ git+https://github.com/encode/django-rest-framework.git@605cc4f7367f58002056453d9befd3c1918f6a38
+    # via
+    #   -r requirements.in
+    #   djangorestframework-csv
+    #   djangorestframework-filters
+    #   drf-extensions
+djangorestframework-csv==3.0.2
+    # via -r requirements.in
+djangorestframework-filters==1.0.0.dev2
+    # via -r requirements.in
+drf-extensions==0.7.1
+    # via -r requirements.in
+envier==0.5.1
+    # via ddtrace
+et-xmlfile==1.1.0
+    # via openpyxl
+expiringdict==1.1.4
+    # via launchdarkly-server-sdk
+faker==33.1.0
+    # via -r requirements.in
+filelock==3.16.1
+    # via snowflake-connector-python
+frozenlist==1.4.1
+    # via
+    #   aiohttp
+    #   aiosignal
+geoip2==4.8.1
+    # via -r requirements.in
+gunicorn[gthread]==23.0.0
+    # via -r requirements.in
+h11==0.14.0
+    # via httpcore
+hiredis==3.1.0
+    # via -r requirements.in
+httpcore==1.0.2
+    # via httpx
+httpx==0.25.2
+    # via
+    #   langsmith
+    #   openai
+idna==3.7
+    # via
+    #   anyio
+    #   httpx
+    #   requests
+    #   snowflake-connector-python
+    #   yarl
+importlib-metadata==6.0.1
+    # via opentelemetry-api
+inflection==0.5.1
+    # via -r requirements.in
+itypes==1.2.0
+    # via coreapi
+jinja2==3.1.5
+    # via coreschema
+jiter==0.5.0
+    # via openai
+jmespath==1.0.1
+    # via
+    #   -r requirements.in
+    #   boto3
+    #   botocore
+jsonpatch==1.33
+    # via langchain-core
+jsonpointer==2.4
+    # via jsonpatch
+jsonschema==4.22.0
+    # via
+    #   openapi-schema-validator
+    #   openapi-spec-validator
+jsonschema-path==0.3.4
+    # via openapi-spec-validator
+jsonschema-specifications==2023.12.1
+    # via
+    #   jsonschema
+    #   openapi-schema-validator
+kombu[sqs]==5.3.4
+    # via celery
+langchain==0.3.12
+    # via -r requirements.in
+langchain-core==0.3.25
+    # via
+    #   langchain
+    #   langchain-text-splitters
+langchain-text-splitters==0.3.3
+    # via langchain
+langsmith==0.1.129
+    # via
+    #   langchain
+    #   langchain-core
+launchdarkly-eventsource==1.2.0
+    # via launchdarkly-server-sdk
+launchdarkly-server-sdk==9.8.0
+    # via -r requirements.in
+lazy-object-proxy==1.10.0
+    # via openapi-spec-validator
+logstash-formatter==0.5.17
+    # via -r requirements.in
+lxml==5.3.0
+    # via -r requirements.in
+markdown==3.7
+    # via -r requirements.in
+markupsafe==2.1.2
+    # via jinja2
+maxminddb==2.6.2
+    # via
+    #   -r requirements.in
+    #   geoip2
+multidict==6.0.5
+    # via
+    #   aiohttp
+    #   yarl
+ndg-httpsclient==0.5.1
+    # via pusher
+netaddr==1.3.0
+    # via -r requirements.in
+numpy==1.26.4
+    # via
+    #   langchain
+    #   pgvector
+objproxies==0.9.4
+    # via -r requirements.in
+openai==1.57.4
+    # via -r requirements.in
+openapi-codec==1.3.2
+    # via -r requirements.in
+openapi-schema-validator==0.6.2
+    # via openapi-spec-validator
+openapi-spec-validator==0.7.1
+    # via -r requirements.in
+openpyxl==3.1.5
+    # via -r requirements.in
+opentelemetry-api==1.17.0
+    # via ddtrace
+orjson==3.10.6
+    # via langsmith
+packaging==24.1
+    # via
+    #   gunicorn
+    #   langchain-core
+    #   snowflake-connector-python
+pathable==0.4.3
+    # via jsonschema-path
+pgvector==0.3.6
+    # via -r requirements.in
+pilkit==2.0
+    # via django-imagekit
+pillow==11.0.0
+    # via -r requirements.in
+platformdirs==3.11.0
+    # via snowflake-connector-python
+prompt-toolkit==3.0.29
+    # via click-repl
+propcache==0.2.0
+    # via
+    #   aiohttp
+    #   yarl
+protobuf==3.18.3
+    # via ddtrace
+psutil==6.1.0
+    # via -r requirements.in
+psycopg2-binary==2.9.10
+    # via -r requirements.in
+pusher==3.3.2
+    # via -r requirements.in
+pusher-push-notifications==2.0.1
+    # via -r requirements.in
+pyasn1==0.4.8
+    # via
+    #   ndg-httpsclient
+    #   pusher
+pybreaker==1.2.0
+    # via -r requirements.in
+pycparser==2.20
+    # via cffi
+pycryptodome==3.21.0
+    # via -r requirements.in
+pycurl==7.45.2
+    # via
+    #   celery
+    #   kombu
+pydantic==2.8.2
+    # via
+    #   langchain
+    #   langchain-core
+    #   langsmith
+    #   openai
+pydantic-core==2.20.1
+    # via pydantic
+pyjwt==2.10.1
+    # via
+    #   -r requirements.in
+    #   pusher-push-notifications
+    #   snowflake-connector-python
+pymemcache==4.0.0
+    # via -r requirements.in
+pynacl==1.5.0
+    # via pusher
+pyopenssl==24.3.0
+    # via
+    #   ndg-httpsclient
+    #   pusher
+    #   snowflake-connector-python
+pypdf==5.1.0
+    # via -r requirements.in
+pyrfc3339==1.1
+    # via launchdarkly-server-sdk
+python-dateutil==2.9.0.post0
+    # via
+    #   -r requirements.in
+    #   botocore
+    #   celery
+    #   faker
+python-magic==0.4.27
+    # via -r requirements.in
+python-redis-lock==4.0.0
+    # via -r requirements.in
+python-snappy==0.7.3
+    # via -r requirements.in
+pytz==2024.2
+    # via
+    #   -r requirements.in
+    #   pyrfc3339
+    #   snowflake-connector-python
+pyyaml==6.0.2
+    # via
+    #   -r requirements.in
+    #   jsonschema-path
+    #   langchain
+    #   langchain-core
+redis==5.2.1
+    # via
+    #   -r requirements.in
+    #   celery
+    #   django-redis-cache
+    #   python-redis-lock
+referencing==0.36.2
+    # via
+    #   jsonschema
+    #   jsonschema-path
+    #   jsonschema-specifications
+requests==2.32.3
+    # via
+    #   -r requirements.in
+    #   aws-requests-auth
+    #   coreapi
+    #   geoip2
+    #   jsonschema-path
+    #   langchain
+    #   langsmith
+    #   pusher
+    #   pusher-push-notifications
+    #   snowflake-connector-python
+rfc3339-validator==0.1.4
+    # via openapi-schema-validator
+rpds-py==0.22.3
+    # via
+    #   jsonschema
+    #   referencing
+s3transfer==0.10.0
+    # via boto3
+semver==3.0.2
+    # via
+    #   -r requirements.in
+    #   launchdarkly-server-sdk
+sentry-sdk==2.19.2
+    # via -r requirements.in
+six==1.16.0
+    # via
+    #   click-repl
+    #   ddsketch
+    #   ddtrace
+    #   pusher
+    #   pusher-push-notifications
+    #   python-dateutil
+    #   rfc3339-validator
+sniffio==1.3.0
+    # via
+    #   anyio
+    #   httpx
+    #   openai
+snowflake-connector-python==3.13.2
+    # via django-snowflake
+sortedcontainers==2.4.0
+    # via snowflake-connector-python
+sqlalchemy==2.0.23
+    # via langchain
+sqlparse==0.5.0
+    # via django
+tabulate==0.9.0
+    # via -r requirements.in
+tenacity==9.0.0
+    # via
+    #   -r requirements.in
+    #   langchain
+    #   langchain-core
+tomlkit==0.12.1
+    # via snowflake-connector-python
+tqdm==4.66.3
+    # via openai
+typing-extensions==4.12.2
+    # via
+    #   ddtrace
+    #   django-countries
+    #   faker
+    #   langchain-core
+    #   openai
+    #   pydantic
+    #   pydantic-core
+    #   snowflake-connector-python
+    #   sqlalchemy
+tzdata==2024.2
+    # via
+    #   -r requirements.in
+    #   celery
+unidecode==1.3.8
+    # via -r requirements.in
+uritemplate==3.0.1
+    # via coreapi
+urllib3==1.26.19
+    # via
+    #   -r requirements.in
+    #   botocore
+    #   celery
+    #   kombu
+    #   launchdarkly-eventsource
+    #   launchdarkly-server-sdk
+    #   pusher
+    #   requests
+    #   sentry-sdk
+vine==5.1.0
+    # via
+    #   amqp
+    #   celery
+    #   kombu
+wcwidth==0.2.5
+    # via prompt-toolkit
+webencodings==0.5.1
+    # via bleach
+wrapt==1.15.0
+    # via deprecated
+xlsxwriter==3.2.0
+    # via -r requirements.in
+xmltodict==0.13.0
+    # via ddtrace
+yarl==1.17.2
+    # via aiohttp
+zipp==3.19.1
+    # via importlib-metadata
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
